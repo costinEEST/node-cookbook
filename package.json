@@ -8,7 +8,8 @@
     "start": "nodemon ./index.js",
     "debug": "nodemon --inspect ./index.js",
     "debug-legacy": "node-debug ./index.js",
-    "debug-initial": "nodemon --inspect-brk ./index.js"
+    "debug-initial": "nodemon --inspect-brk ./index.js",
+    "debug-initial-legacy": "nodemon --debug-brk --inspect ./index.js"
   },
   "keywords": [],
   "author": "",
