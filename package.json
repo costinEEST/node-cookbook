@@ -9,7 +9,8 @@
     "debug": "nodemon --inspect ./index.js",
     "debug-legacy": "node-debug ./index.js",
     "debug-initial": "nodemon --inspect-brk ./index.js",
-    "debug-initial-legacy": "nodemon --debug-brk --inspect ./index.js"
+    "debug-initial-legacy": "nodemon --debug-brk --inspect ./index.js",
+    "debug-cli": "node debug ./index.js"
   },
   "keywords": [],
   "author": "",
