@@ -13,3 +13,9 @@ echo -e "hi\nthere" | node piping.js
 ```
 
 ## https://stackoverflow.com/questions/53130609/what-is-the-pipe-method-in-nodejs + https://nodejs.org/en/knowledge/advanced/streams/how-to-use-stream-pipe
+
+## know whether a program is directly connected to a terminal or whether its I/O is being redirected.
+
+```sh
+node -p "process.stdin.isTTY"
+```
