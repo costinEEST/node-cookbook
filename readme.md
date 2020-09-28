@@ -19,3 +19,9 @@ echo -e "hi\nthere" | node piping.js
 ```sh
 node -p "process.stdin.isTTY"
 ```
+
+##
+
+```sh
+node -p "Buffer.allocUnsafe(1e6).toString()" > file.dat
+```
