@@ -1,3 +1,5 @@
+## https://github.com/PacktPublishing/Node-Cookbook-3rd-Ed + https://github.com/PacktPublishing/Node.js-14-Cookbook
+
 ## https://v8.dev/docs/stack-trace-api
 
 ## https://github.com/costinEEST/hsl-to-hex
