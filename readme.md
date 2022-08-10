@@ -1,4 +1,21 @@
-## https://github.com/PacktPublishing/Node-Cookbook-3rd-Ed + https://github.com/PacktPublishing/Node.js-14-Cookbook
+- 4th edition: [repo](https://github.com/PacktPublishing/Node.js-14-Cookbook), [buy](https://www.packtpub.com/product/node-cookbook-fourth-edition/9781838558758), [images](https://static.packt-cdn.com/downloads/9781838558758_ColorImages.pdf), [14.x](https://github.com/nodejs/release#release-schedule)
+- 3rd edition: [repo](https://github.com/PacktPublishing/Node-Cookbook-3rd-Ed), [buy](https://www.packtpub.com/product/node-cookbook-third-edition/9781785880087)
+- [Install `nvm` in WSL](https://github.com/nvm-sh/nvm#install--update-script)
+
+```bash
+nvm -v
+0.39.1
+```
+
+```bash
+node -v
+v18.3.0
+```
+
+```bash
+npm -v
+8.11.0
+```
 
 ## https://v8.dev/docs/stack-trace-api
 
