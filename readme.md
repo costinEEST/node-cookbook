@@ -12,25 +12,29 @@
 - All Node.js streams are instances of the [EventEmitter](https://nodejs.org/api/events.html#events_class_eventemitter) class
 - Readable streams are [asynchronous](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of) iterables
 
-| Events emitted on readable streams: |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| `close`                             | Emitted when the stream and any of the stream's resources have been closed. No further events will be emitted |
-| `data`                              | Emitted when new data is read from the stream                                                                 |
-| `end`                               | Emitted when all available data has been read                                                                 |
-| `error`                             | Emitted when the readable stream experiences an error                                                         |
-| `pause`                             | Emitted when the readable stream is paused                                                                    |
-| `readable`                          | Emitted when there is data available to be read                                                               |
-| `resume`                            | Emitted when a readable stream resumes after being in a paused state                                          |
+- Events emitted on readable streams: 
+
+| Event's name | Event's description                                                                                           |
+| ------------ | ------------------------------------------------------------------------------------------------------------- |
+| `close`      | Emitted when the stream and any of the stream's resources have been closed. No further events will be emitted |
+| `data`       | Emitted when new data is read from the stream                                                                 |
+| `end`        | Emitted when all available data has been read                                                                 |
+| `error`      | Emitted when the readable stream experiences an error                                                         |
+| `pause`      | Emitted when the readable stream is paused                                                                    |
+| `readable`   | Emitted when there is data available to be read                                                               |
+| `resume`     | Emitted when a readable stream resumes after being in a paused state                                          |
 
 
-| Events emitted on writable streams: |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| `close`                             | Emitted when the stream and any of the stream's resources have been closed. No further events will be emitted |
-| `drain`                             | Emitted when the writable stream can resume writing data                                                      |
-| `error`                             | Emitted when the writeable stream experiences an error                                                        |
-| `finish`                            | Emitted when the writeable stream has ended and all writes have completed                                     |
-| `pipe`                              | Emitted when the `stream.pipe()` method is called on a readable stream                                        |
-| `unpipe`                            | Emitted when the `stream.unpipe()` method is called on a readable stream                                      |
+- Events emitted on writable streams:
+
+| Event's name | Event's description                                                                                           |
+| ------------ | ------------------------------------------------------------------------------------------------------------- |
+| `close`      | Emitted when the stream and any of the stream's resources have been closed. No further events will be emitted |
+| `drain`      | Emitted when the writable stream can resume writing data                                                      |
+| `error`      | Emitted when the writeable stream experiences an error                                                        |
+| `finish`     | Emitted when the writeable stream has ended and all writes have completed                                     |
+| `pipe`       | Emitted when the `stream.pipe()` method is called on a readable stream                                        |
+| `unpipe`     | Emitted when the `stream.unpipe()` method is called on a readable stream                                      |
 
 ## https://v8.dev/docs/stack-trace-api
 
@@ -47,12 +51,6 @@ echo -e "hi\nthere" | node piping.js
 ```
 
 ## https://stackoverflow.com/questions/53130609/what-is-the-pipe-method-in-nodejs + https://nodejs.org/en/knowledge/advanced/streams/how-to-use-stream-pipe
-
-## know whether a program is directly connected to a terminal or whether its I/O is being redirected.
-
-```sh
-node -p "process.stdin.isTTY"
-```
 
 ##
 
