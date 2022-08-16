@@ -3,7 +3,7 @@
 - [Install `nvm` in WSL](https://github.com/nvm-sh/nvm#install--update-script)
 - Show the version of [V8](https://nodejs.dev/learn/the-v8-javascript-engine) that is embeded in the NodeJS version that I use: `node -p "process.versions.v8"`
 - Starting with [Node.js v14.8](https://nodejs.org/en/blog/release/v14.8.0), [top-level await](https://github.com/tc39/proposal-top-level-await) is available (without the use of the `--harmony-top-level-await` command line flag)
-
+- [Fix for the file change detection inside of WSL](https://stackoverflow.com/a/69277786/1904223)
 
 ## https://v8.dev/docs/stack-trace-api
 
