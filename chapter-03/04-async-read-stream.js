@@ -1,3 +1,7 @@
+/**
+ * https://github.com/Qard/async-iterator-talk
+ * */
+
 const fs = require("node:fs");
 const path = require("node:path");
 

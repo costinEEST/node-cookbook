@@ -5,6 +5,7 @@
  * https://nodejs.org/api/process.html#processstdout
  * https://github.com/substack/stream-handbook#pipe
  * https://nodejs.org/en/knowledge/advanced/streams/how-to-use-stream-pipe
+ * https://github.com/Qard/async-iterator-pipe
  * */
 
 const fs = require("fs");
