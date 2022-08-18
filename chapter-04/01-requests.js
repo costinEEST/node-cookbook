@@ -1,8 +1,10 @@
 /**
  * Use the http module to make a HTTP request
  *
+ * https://nodejs.org/api/buffer.html#static-method-bufferbytelengthstring-encoding
  * https://nodejs.org/api/http.html#http_http_request_options_callback
  * */
+
 const https = require("node:https");
 
 const payload = `{
