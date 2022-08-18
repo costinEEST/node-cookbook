@@ -36,3 +36,5 @@
 | `pipe`       | Emitted when the `stream.pipe()` method is called on a readable stream                                        |
 | `unpipe`     | Emitted when the `stream.unpipe()` method is called on a readable stream                                      |
 
+- An [overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) of HTTP
+- [Postman Echo](https://postman-echo.com) is service you can use to test your REST clients and make sample API calls
