@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The UI form</title>
+  </head>
+  <body>
+    <form method="POST">
+      <label for="forename">Forename:</label>
+      <input id="forename" name="forename" />
+      <label for="surname">Surname:</label>
+      <input id="surname" name="surname" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script>
+      /**
+       * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries
+       * https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects#using_a_formdata_event
+       * https://developer.mozilla.org/en-US/docs/Web/API/FormData/entries
+       * */
+      document.querySelector("form").addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        fetch("http://localhost:3000", {
+          method: "post",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(
+            Object.fromEntries(new FormData(event.target).entries())
+          ),
+        }).then((response) => response.json());
+      });
+    </script>
+  </body>
+</html>
