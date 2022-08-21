@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "formidable": "^3.2.4",
     "ndjson": "^2.0.0"
   }
 }
