@@ -2,6 +2,8 @@
   "dependencies": {
     "formidable": "^3.2.4",
     "ndjson": "^2.0.0",
+    "nodemailer": "^6.7.8",
+    "smtp-server": "^3.11.0",
     "ws": "^8.8.1"
   }
 }

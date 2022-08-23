@@ -39,3 +39,7 @@
 - An [overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) of HTTP
 - [Postman Echo](https://postman-echo.com) is a service you can use to test your REST clients and make sample API calls
 - HTTP [status](https://www.rfc-editor.org/rfc/rfc2616#section-10) codes
+- To check if a SMTP server is listening on port `4321` use either `telnet localhost 4321` or `nc -v localhost 4321`
+- https://blog.benstein.nl/posts/Telnet-is-dead-long-live-netcat
+- https://www.unixfu.ch/use-netcat-instead-of-telnet
+- https://superuser.com/questions/1461609/what-is-the-difference-between-telnet-and-netcat
