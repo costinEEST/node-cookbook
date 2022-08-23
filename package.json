@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "formidable": "^3.2.4",
-    "ndjson": "^2.0.0"
+    "ndjson": "^2.0.0",
+    "ws": "^8.8.1"
   }
 }
