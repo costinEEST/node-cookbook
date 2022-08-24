@@ -40,6 +40,10 @@
 - [Postman Echo](https://postman-echo.com) is a service you can use to test your REST clients and make sample API calls
 - HTTP [status](https://www.rfc-editor.org/rfc/rfc2616#section-10) codes
 - To check if a SMTP server is listening on port `4321` use either `telnet localhost 4321` or `nc -v localhost 4321`
-- https://blog.benstein.nl/posts/Telnet-is-dead-long-live-netcat
-- https://www.unixfu.ch/use-netcat-instead-of-telnet
-- https://superuser.com/questions/1461609/what-is-the-difference-between-telnet-and-netcat
+- Prefer [`netcat`](https://blog.benstein.nl/posts/Telnet-is-dead-long-live-netcat) instead of [`telnet`](https://superuser.com/a/1461622)
+- List the contents of your `node_modules` directory: `npm list`
+- To see where the `formidable` package was installed type `which formidable` or `where formidable` (for Windows) 
+- GitHub's default [.gitignore](https://github.com/github/gitignore/blob/main/Node.gitignore) file for Node.js
+- `npm`'s semver [ranges](https://docs.npmjs.com/cli/v8/configuring-npm/package-json#dependencies)
+- [Differences](https://nodejs.org/api/esm.html#esm_differences_between_es_modules_and_commonjs) between ES modules and CommonJS
+- [Scaffold](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website#overview) an Express.js application: `npx express-generator --view=ejs express-generated-app`
