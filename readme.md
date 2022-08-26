@@ -47,3 +47,4 @@
 - `npm`'s semver [ranges](https://docs.npmjs.com/cli/v8/configuring-npm/package-json#dependencies)
 - [Differences](https://nodejs.org/api/esm.html#esm_differences_between_es_modules_and_commonjs) between ES modules and CommonJS
 - [Scaffold](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website#overview) an Express.js application: `npx express-generator --view=ejs express-generated-app`
+- [`async`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises#async_and_await) syntax landend in Node.js [7.6.0](https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V7.md#7.6.0) 
