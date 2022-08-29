@@ -50,3 +50,9 @@
 - [`async`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises#async_and_await) syntax landend in Node.js [7.6.0](https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V7.md#7.6.0) 
 - Fastify vs Express: which [is](https://youtu.be/SlUNZZaZhFU) better? 
 - Generate a Fastify application from the [command line](https://github.com/fastify/fastify-cli#usage): `npx fastify-cli generate fastify-generated-app`
+- [Install](https://youtu.be/2TKh3aokgec) Docker inside of WSL
+- List Docker containers: `docker ps`
+- Stop a Docker container: `docker stop containerID`
+- Remove a Docker container: `docker rm --force containerID`
+- Remove all Docker containers: `docker rm --force $(docker ps --all --quiet)`
+- Start a MySQL v5 database listening on port `3306`: `docker run --publish 3306:3306 --name node-mysql --env MYSQL_ROOT_PASSWORD=PASSWORD --detach mysql:5`
