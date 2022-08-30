@@ -1,16 +1,16 @@
 /**
- * https://github.com/mysqljs/mysql#establishing-connections
- * https://github.com/mysqljs/mysql#performing-queries
+ * https://github.com/sidorares/node-mysql2#first-query
+ * https://github.com/sidorares/node-mysql2#using-prepared-statements
  * https://planetscale.com/blog/how-to-prevent-sql-injection-attacks-in-node-js
  * https://knowledge-base.secureflag.com/vulnerabilities/sql_injection/sql_injection_nodejs.html
  * www.symantec.com/connect/articles/detection-sql-injection-and-cross-site-scripting-attacks
  * */
 
-const mysql = require("../node_modules/mysql/index");
+const { createConnection } = require("../node_modules/mysql2/index");
 
 require("../node_modules/dotenv/lib/main").config();
 
-const db = mysql.createConnection({
+const db = createConnection({
   user: process.env.DB_MYSQL_USER,
   password: process.env.DB_MYSQL_PASSWORD,
 });

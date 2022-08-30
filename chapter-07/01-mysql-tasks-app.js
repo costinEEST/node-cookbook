@@ -1,9 +1,8 @@
 /**
- * https://github.com/mysqljs/mysql#establishing-connections
- * https://github.com/mysqljs/mysql#performing-queries
+ * https://github.com/sidorares/node-mysql2#first-query
  * */
 
-const { createConnection } = require("../node_modules/mysql/index");
+const { createConnection } = require("../node_modules/mysql2/index");
 
 require("../node_modules/dotenv/lib/main").config();
 

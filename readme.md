@@ -55,4 +55,5 @@
 - Stop a Docker container: `docker stop containerID`
 - Remove a Docker container: `docker rm --force containerID`
 - Remove all Docker containers: `docker rm --force $(docker ps --all --quiet)`
-- Start a MySQL v5 database listening on port `3306`: `docker run --publish 3306:3306 --name node-mysql --env MYSQL_ROOT_PASSWORD=PASSWORD --detach mysql:5`
+- Start a [MySQL](https://geshan.com.np/blog/2022/02/mysql-docker-compose/#run-mysql-with-docker) v8 database listening on port `3306`: `docker run --publish 3306:3306 --name node-mysql --env MYSQL_ROOT_PASSWORD=PASSWORD --detach mysql:8.0`
+- Connect to MySQL from Node.js using [mysql2](https://geshan.com.np/blog/2020/11/nodejs-mysql-tutorial/#wire-up-node.js-with-mysql) package
