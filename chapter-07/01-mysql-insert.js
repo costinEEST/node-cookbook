@@ -1,6 +1,7 @@
 /**
  * https://github.com/sidorares/node-mysql2#first-query
  * https://github.com/sidorares/node-mysql2#using-prepared-statements
+ * https://evertpot.com/executing-a-mysql-query-in-nodejs
  * https://planetscale.com/blog/how-to-prevent-sql-injection-attacks-in-node-js
  * https://knowledge-base.secureflag.com/vulnerabilities/sql_injection/sql_injection_nodejs.html
  * www.symantec.com/connect/articles/detection-sql-injection-and-cross-site-scripting-attacks
