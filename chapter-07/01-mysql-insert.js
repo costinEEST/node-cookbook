@@ -15,11 +15,11 @@ const db = createConnection({
   password: process.env.DB_MYSQL_PASSWORD,
 });
 
-db.query("CREATE DATABASE tasks");
+db.query("CREATE DATABASE IF NOT EXISTS tasks");
 db.query("USE tasks");
 
 db.query(
-  "CREATE TABLE tasks.tasks (" +
+  "CREATE TABLE IF NOT EXISTS tasks.tasks (" +
     "id INT NOT NULL AUTO_INCREMENT, " +
     "task TEXT NOT NULL, PRIMARY KEY ( id )" +
     ")"
