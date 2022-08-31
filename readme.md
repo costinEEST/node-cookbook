@@ -59,4 +59,5 @@
 - Connect to MySQL from Node.js using [mysql2](https://geshan.com.np/blog/2020/11/nodejs-mysql-tutorial/#wire-up-node.js-with-mysql) package
 - Start a PostgreSQL v14.5 database listening on port `5432`: `docker run --publish 5432:5432 --name node-postgres --env POSTGRES_PASSWORD=PASSWORD --detach postgres:14.5`
 - The [`pg`](https://node-postgres.com/features/connecting#environment-variables) module automatically looks for specifically named [variables](https://www.postgresql.org/docs/current/libpq-envars.html) (`PGPORT`, `PGPASSWORD`, and `PGUSER`)
-- Builtin Postgres [types](https://github.com/brianc/node-pg-types/blob/master/lib/builtins.js) with stable [OID](https://www.postgresql.org/docs/current/datatype-oid.html)
+- Builtin PostgreSQL [types](https://github.com/brianc/node-pg-types/blob/master/lib/builtins.js) with stable [OID](https://www.postgresql.org/docs/current/datatype-oid.html)
+- Start a MongoDB v4.2.22 database listening on port `27017`: `docker run --publish 27017:27017 --name node-mongo --detach mongo:4.2.22`
