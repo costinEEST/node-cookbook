@@ -61,3 +61,9 @@
 - The [`pg`](https://node-postgres.com/features/connecting#environment-variables) module automatically looks for specifically named [variables](https://www.postgresql.org/docs/current/libpq-envars.html) (`PGPORT`, `PGPASSWORD`, and `PGUSER`)
 - Builtin PostgreSQL [types](https://github.com/brianc/node-pg-types/blob/master/lib/builtins.js) with stable [OID](https://www.postgresql.org/docs/current/datatype-oid.html)
 - Start a MongoDB v4.2.22 database listening on port `27017`: `docker run --publish 27017:27017 --name node-mongo --detach mongo:4.2.22`
+- Start a Redis v7.0.4 database listening on port `6379`: `docker run --publish 6379:6379 --name node-redis --detach redis:7.0.4`
+- Start a password protected Redis database listening on port `6380`: `docker run --name node-redis-pwd -d -p 6380:6379 redis redis-server --requirepass PASSWORD`
+- [How](https://flaviocopes.com/how-to-use-redis-nodejs) to use Redis with Node.js
+- Redis [cheat sheet](https://github.com/CyberT33N/redis-cheat-sheet) with the most needed stuff
+- Replace `redis` with [`ioredis`](https://ably.com/blog/migrating-from-node-redis-to-ioredis)
+- Implement [caching](https://www.digitalocean.com/community/tutorials/how-to-implement-caching-in-node-js-using-redis) in Node.js Using Redis
