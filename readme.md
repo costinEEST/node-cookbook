@@ -67,3 +67,6 @@
 - Redis [cheat sheet](https://github.com/CyberT33N/redis-cheat-sheet) with the most needed stuff
 - Replace `redis` with [`ioredis`](https://ably.com/blog/migrating-from-node-redis-to-ioredis)
 - Implement [caching](https://www.digitalocean.com/community/tutorials/how-to-implement-caching-in-node-js-using-redis) in Node.js Using Redis
+- [LevelDB](https://github.com/cyberwizardinstitute/workshops/blob/master/leveldb.markdown) workshop
+- LevelDB [playlist](https://www.youtube.com/playlist?list=PLlOo05o5nzJTSXUQqxaWEz24vV0eq2mSH) by BlessYahu
+- LevelDB [playlist](https://www.youtube.com/playlist?list=PLaCN8MYUet0tR1xn5d8ZtCumHKtP6Wkeq) by Wei Zhou
